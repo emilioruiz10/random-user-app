@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random User Generator</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <img id="user-image" class="user-image" src="" alt="User picture" />
+
+        <h2 id="user-name" class="user-name">Name</h2>
+
+        <p class="user-info">
+          <span class="label">Email:</span>
+          <span id="user-email"></span>
+        </p>
+
+        <p class="user-info">
+          <span class="label">Location:</span>
+          <span id="user-street"></span>, <span id="user-city"></span>,
+          <span id="user-state"></span>, <span id="user-country"></span>,
+          <span id="user-postcode"></span>
+        </p>
+
+        <p class="user-info">
+          <span class="label">Coordinates:</span>
+          <span id="user-latitude"></span>,
+          <span id="user-longitude"></span>
+        </p>
+
+        <p class="user-info">
+          <span class="label">Timezone:</span>
+          <span id="user-timezone"></span>
+        </p>
+
+        <p class="user-info">
+          <span class="label">DOB:</span>
+          <span id="user-dob"></span>
+          (<span id="user-age"></span> years)
+        </p>
+
+        <p class="user-info">
+          <span class="label">Phone:</span>
+          <span id="user-phone"></span>
+        </p>
+
+        <p class="user-info">
+          <span class="label">Username:</span>
+          <span id="user-username"></span>
+        </p>
+
+        <button id="generate-btn">Show Random User</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
